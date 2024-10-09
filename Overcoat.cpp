@@ -77,7 +77,7 @@ Overcoat Overcoat::operator++(int) {
 
 Overcoat& Overcoat::operator--() {
     if (size > 36) {
-        --size;
+        size-=2;
     }
     return *this;
 }
