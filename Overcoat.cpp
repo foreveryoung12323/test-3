@@ -22,7 +22,7 @@ string Overcoat::getType() const {
 
 void Overcoat::setSize(int s) {
     if (s >= 36 && s <= 52) {
-        size = s;
+        size =+ s;
     }
 }
 
@@ -64,7 +64,7 @@ bool Overcoat::operator<=(const Overcoat& other) const {
 
 Overcoat& Overcoat::operator++() {
     if (size < 52) {
-        ++size;
+        +size;
     }
     return *this;
 }
