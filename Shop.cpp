@@ -10,7 +10,7 @@ void Shop::removeOvercoat(int index) {
     }
 }
 
-void Shop::editSize(int index, const string& newSize) {
+void Shop::editSize(int index, int newSize) {
     if (index >= 0 && index < inventory.size()) {
         inventory[index].setSize(newSize);
     }
