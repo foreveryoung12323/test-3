@@ -29,7 +29,7 @@ public:
     void setPrice(double p);
     double getPrice() const;
 
-    // Оператор сравнения
+
     bool operator==(const Overcoat& other) const;
     bool operator!=(const Overcoat& other) const;
     bool operator>(const Overcoat& other) const;
